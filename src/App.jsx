@@ -43,10 +43,9 @@ const App = () => {
       const updatedPhotos = photos.map((photo) =>
         photo.date === photoId ? {...photo, isFaved: !photo.isFaved} : photo
       )
-
       localStorage.setItem(
         'favePhotoIds',
-        JSON.stringify(updatedPhotos.filter(({isFaved}) => isFaved).map(({id}) => id))
+        JSON.stringify(updatedPhotos.filter(({isFaved}) => isFaved).map(({date}) => date))
       )
       return updatedPhotos
     })
