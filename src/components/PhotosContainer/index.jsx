@@ -5,9 +5,9 @@ import {Container, H2, PhotoList, NoPhotosContainer, H3, SadFace, H4} from './st
 
 const NoPhotosMessage = () => (
   <NoPhotosContainer>
-    <H3>Oh space cadet!</H3>
+    <H3>Hang on there space cadet!</H3>
     <SadFace />
-    <H4>There are no photos to see here.</H4>
+    <H4>Your photos are loading...</H4>
   </NoPhotosContainer>
 )
 
