@@ -43,7 +43,8 @@ Bonus features:
 <img width="1200" alt="searchbar" src="https://user-images.githubusercontent.com/78378462/134252613-304bc2f4-6a1b-45ca-9614-28eb1dea5e06.png">
 
 ### Mobile View 
-<img width="450" alt="mobileview" src="https://user-images.githubusercontent.com/78378462/134252648-674a5fff-870c-4f19-ad64-aebccf0eff46.png">
+<img width="450" alt="mobile" src="https://user-images.githubusercontent.com/78378462/134299054-7c3fbf4b-cd53-4b20-b11c-7397e9261ecc.png">
+
 
 
 <!-- GETTING STARTED -->
