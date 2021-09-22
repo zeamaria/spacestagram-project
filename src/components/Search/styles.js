@@ -5,6 +5,7 @@ import {ReactComponent as MagnifyingIcon} from '../../assets/search.svg'
 export const Wrapper = styled.div`
   display: flex;
   gap: 20px;
+
   @media (max-width: 1000px) {
     border-top: 2px solid black;
     align-items: center;
@@ -21,20 +22,18 @@ export const Wrapper = styled.div`
 `
 
 export const SearchContainer = styled(Pill)`
-  width: ${({$showOnDesktop}) => ($showOnDesktop ? '420px' : '20px')};
   transition: 300ms;
-
-  @media (max-width: 1000px) {
-    width: 85%;
-  }
-
+  width: ${({$showOnDesktop}) => ($showOnDesktop ? '420px' : '20px')};
   input,
   button {
     display: ${({$showOnDesktop}) => ($showOnDesktop ? 'block' : 'none')};
+    @media (max-width: 1000px) {
+      display: block;
+    }
   }
-
   @media (max-width: 1000px) {
-    display: block;
+    width: 50%;
+    margin-right: 10px;
   }
 `
 
